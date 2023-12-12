@@ -29,7 +29,7 @@ The following tooling/configuration is needed for all the examples in this repo.
 
 ## Fork and clone this repository
 
-- in Github, fork this repository into your own Github account
+- in Github, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository into your own Github account
 - in your shell of choice `cd` to the parent directory you want to put this code in
 - `git clone git@github.com:YOURUSERNAME/azurescripts.git`
 - `cd azurescripts`
