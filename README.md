@@ -1,6 +1,6 @@
 # Example scripts for working with Microsoft Graph and Azure AD
 
-THis repository is primarily for my own learning and should not be considered to be supported in any way.
+This repository is primarily for my own learning and should not be considered to be supported in any way.
 
 ## Microsoft 365 Account needed
 
