@@ -2,7 +2,7 @@
 
 ## Microsoft 365 Account needed
 
-To use these samples oyu need to have access to a Microsoft work or school account with an Exchange Online mailbox. If you don't have a Microsoft account, you can sign up for the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
+To use these samples you need to have access to a Microsoft work or school account with an Exchange Online mailbox. If you don't have a Microsoft account, you can sign up for the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
 
 ## Language options
 
