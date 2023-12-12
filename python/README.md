@@ -39,3 +39,4 @@ The example scripts are in subdirectories below this one.
 In your conda prompt, with the correct environment activated, change directory to the script, and follow any coinfiguration instructions in the README in that folder:
 
 - [Microsoft MS Graph per-user example](./user-auth/README.md)
+- [Microsoft MS Graph applicaiton permissions example](./app-auth/README.md)
