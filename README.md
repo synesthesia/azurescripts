@@ -1,4 +1,6 @@
-# Example scripts for working with Microsoft Graph and Azure AD (aka Entra ID)
+# Example scripts for working with Microsoft Graph and Azure AD
+
+THis repository is primarily for my own learning and should not be considered to be supported in any way.
 
 ## Microsoft 365 Account needed
 
@@ -80,3 +82,16 @@ The first time you use this app it may (depending on the settings on your Azure 
   
 > **Note**
 If you need further permissions you need to edit the registration AND re-grant admin consent
+
+
+## Protecting secrets
+
+If you contribute, please be careful about not committing secrets to git repos - the two initial Python examples are set up so that if you follow the instructions carefully this won't happen, but if you add other examples in any language please make sure to pass secrets to the code in one of these three ways:
+
+- as environment variables
+- read from a config file that is prevented from being checked in by a suitable entry in .gitignore
+- via the command line
+
+## Contributions
+
+PRs welcome, please discuss in an issue on GitHub first.

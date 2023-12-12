@@ -13,6 +13,9 @@ Follow all steps in the [top-level README](../../README.md) and the [Python READ
 Ensure that you have an Azure AD application registration for application access to the MS Graph API as documented in the top-level [README](../../README.md).
 
 In this directory copy the file `config.sample.cfg` to `config.cfg` and populate with the Client ID and Tenant Id for the application registration.
+> **NOTE**
+The `config.cfg` file is ignored by Git so you don't accidentally check secrets into the repository.
+
 
 To run the code:
 - in your shell with active conda environment, change into this directory
