@@ -8,11 +8,7 @@ As we need some additional dependencies, we are going to create a new environmen
 
 First, please follow all the setups in the main [Python README](../README.md).
 
-Then to set uip the environment open a conda prompt in this directory and either:
-
-`conda env create -f environment.yml`
-
-or, to set up from scratch:
+Then to set up the environment open a conda prompt in this directory and type:
 
 ```
 conda activate base
@@ -36,3 +32,18 @@ Then because `msgraph-sdk` is currently only available via pip:
 **Warning**
 
  Please read the Anaconda documentation about [mixing `pip` with `conda`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#using-pip-in-an-environment) - if as you develop scripts you want to add further dependencies using conda you are advised to start with a new virtual environment
+
+### Add  secrets to environment
+
+Reference your notes to find the application registration secrets for the app-authorisation app.
+
+In the conda prompt type the following:
+
+```
+conda env config vars set GRAPH_CLIENT_ID=<enter value of client id>
+conda env config vars set GRAPH_CLIENT_SECRET=<enter value of client secret>
+conda env config vars set GRAPH_CLIENT_TENANT=<enter value of tenant>
+conda activate graphjupyter
+```
+
+To test they are set, type ``
